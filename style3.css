@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: greenyellow; */
+    /* background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true'); */
+  }
+
+body{
+  background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true');
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+ 
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: yellow;
+}
+button{
+  background-color: rgb(231, 63, 21);
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 700;
+    width: fit-content;
+
+}
+
+header{
+  padding: 30px 3%;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav ul{
+  margin-top: 25px;
+  display: flex;
+  gap:80px;
+  color: yellow;
+}
+
+nav ul li :hover{
+  text-decoration:underline;
+  font-weight: 900;
+
+}
+.button{
+  margin-top: 20px;
+}
+main{
+  text-align: center ;
+  padding-top: 70px;
+  color: yellow;
+  font-weight: 1000;
+  font-size: 50px;
+  
+}
+.down-button{
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+footer ul {
+/* display: flex;
+padding-left: 1300px;
+position: fixed; */
+
+
+float: right;
+}
